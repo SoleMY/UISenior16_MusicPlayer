@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62BB9DD1CF5346D00A51433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D62BB9DC1CF5346D00A51433 /* main.m */; };
+		D62BB9E61CF5346D00A51433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62BB9E41CF5346D00A51433 /* Main.storyboard */; };
+		D62BB9E81CF5346D00A51433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62BB9E71CF5346D00A51433 /* Assets.xcassets */; };
+		D62BB9EB1CF5346D00A51433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62BB9E91CF5346D00A51433 /* LaunchScreen.storyboard */; };
+		D6D6B2191CF847E80000BC9C /* 梁静茹-偶阵雨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1F71CF847E80000BC9C /* 梁静茹-偶阵雨.jpg */; };
+		D6D6B21A1CF847E80000BC9C /* 林俊杰-背对背拥抱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1F81CF847E80000BC9C /* 林俊杰-背对背拥抱.jpg */; };
+		D6D6B21B1CF847E80000BC9C /* aboveMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1FB1CF847E80000BC9C /* aboveMusic.png */; };
+		D6D6B21C1CF847E80000BC9C /* circleClose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1FC1CF847E80000BC9C /* circleClose.png */; };
+		D6D6B21D1CF847E80000BC9C /* circleOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1FD1CF847E80000BC9C /* circleOpen.png */; };
+		D6D6B21E1CF847E80000BC9C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1FE1CF847E80000BC9C /* menu.png */; };
+		D6D6B21F1CF847E80000BC9C /* nextMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B1FF1CF847E80000BC9C /* nextMusic.png */; };
+		D6D6B2201CF847E80000BC9C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2001CF847E80000BC9C /* pause.png */; };
+		D6D6B2211CF847E80000BC9C /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2011CF847E80000BC9C /* play.png */; };
+		D6D6B2221CF847E80000BC9C /* randomClose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2021CF847E80000BC9C /* randomClose.png */; };
+		D6D6B2231CF847E80000BC9C /* randomOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2031CF847E80000BC9C /* randomOpen.png */; };
+		D6D6B2241CF847E80000BC9C /* sliderThumb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2041CF847E80000BC9C /* sliderThumb_small.png */; };
+		D6D6B2251CF847E80000BC9C /* soundSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2051CF847E80000BC9C /* soundSlider.png */; };
+		D6D6B2261CF847E80000BC9C /* 情非得已.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2061CF847E80000BC9C /* 情非得已.jpg */; };
+		D6D6B2271CF847E80000BC9C /* 张玮伽-无心伤害.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2081CF847E80000BC9C /* 张玮伽-无心伤害.mp3 */; };
+		D6D6B2281CF847E80000BC9C /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2091CF847E80000BC9C /* 情非得已.lrc */; };
+		D6D6B2291CF847E80000BC9C /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B20A1CF847E80000BC9C /* 情非得已.mp3 */; };
+		D6D6B22A1CF847E80000BC9C /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B20B1CF847E80000BC9C /* 林俊杰-背对背拥抱.lrc */; };
+		D6D6B22B1CF847E80000BC9C /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B20C1CF847E80000BC9C /* 林俊杰-背对背拥抱.mp3 */; };
+		D6D6B22C1CF847E80000BC9C /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B20D1CF847E80000BC9C /* 梁静茹-偶阵雨.lrc */; };
+		D6D6B22D1CF847E80000BC9C /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B20E1CF847E80000BC9C /* 梁静茹-偶阵雨.mp3 */; };
+		D6D6B22E1CF847E80000BC9C /* 许嵩-最佳歌手.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B20F1CF847E80000BC9C /* 许嵩-最佳歌手.mp3 */; };
+		D6D6B22F1CF847E80000BC9C /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2101CF847E80000BC9C /* 我的.png */; };
+		D6D6B2301CF847E80000BC9C /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2111CF847E80000BC9C /* 播放.png */; };
+		D6D6B2311CF847E80000BC9C /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2121CF847E80000BC9C /* 暂停.png */; };
+		D6D6B2321CF847E80000BC9C /* 英雄2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2131CF847E80000BC9C /* 英雄2.png */; };
+		D6D6B2331CF847E80000BC9C /* 蔡琴 - 爱断情伤.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2141CF847E80000BC9C /* 蔡琴 - 爱断情伤.wav */; };
+		D6D6B2341CF847E80000BC9C /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2151CF847E80000BC9C /* 视频.png */; };
+		D6D6B2351CF847E80000BC9C /* 许嵩-最佳歌手.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2161CF847E80000BC9C /* 许嵩-最佳歌手.jpg */; };
+		D6D6B2361CF847E80000BC9C /* 许嵩-最佳歌手.lrc in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2171CF847E80000BC9C /* 许嵩-最佳歌手.lrc */; };
+		D6D6B2371CF847E80000BC9C /* 张玮伽-无心伤害.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2181CF847E80000BC9C /* 张玮伽-无心伤害.jpg */; };
+		D6D6B2431CF848350000BC9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B2391CF848350000BC9C /* AppDelegate.m */; };
+		D6D6B2441CF848350000BC9C /* MusicDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B23B1CF848350000BC9C /* MusicDataManager.m */; };
+		D6D6B2451CF848350000BC9C /* MusicListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B23D1CF848350000BC9C /* MusicListTableViewController.m */; };
+		D6D6B2461CF848350000BC9C /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B23F1CF848350000BC9C /* MusicModel.m */; };
+		D6D6B2471CF848350000BC9C /* MusicPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6B2411CF848350000BC9C /* MusicPlayViewController.m */; };
+		D6D6B2481CF848350000BC9C /* MusicPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D6B2421CF848350000BC9C /* MusicPlayViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D62BB9D81CF5346D00A51433 /* UISenior16_MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISenior16_MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62BB9DC1CF5346D00A51433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D62BB9E51CF5346D00A51433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D62BB9E71CF5346D00A51433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D62BB9EA1CF5346D00A51433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D62BB9EC1CF5346D00A51433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D6B1F71CF847E80000BC9C /* 梁静茹-偶阵雨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "梁静茹-偶阵雨.jpg"; sourceTree = "<group>"; };
+		D6D6B1F81CF847E80000BC9C /* 林俊杰-背对背拥抱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "林俊杰-背对背拥抱.jpg"; sourceTree = "<group>"; };
+		D6D6B1FB1CF847E80000BC9C /* aboveMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboveMusic.png; sourceTree = "<group>"; };
+		D6D6B1FC1CF847E80000BC9C /* circleClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleClose.png; sourceTree = "<group>"; };
+		D6D6B1FD1CF847E80000BC9C /* circleOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleOpen.png; sourceTree = "<group>"; };
+		D6D6B1FE1CF847E80000BC9C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		D6D6B1FF1CF847E80000BC9C /* nextMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextMusic.png; sourceTree = "<group>"; };
+		D6D6B2001CF847E80000BC9C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		D6D6B2011CF847E80000BC9C /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		D6D6B2021CF847E80000BC9C /* randomClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomClose.png; sourceTree = "<group>"; };
+		D6D6B2031CF847E80000BC9C /* randomOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomOpen.png; sourceTree = "<group>"; };
+		D6D6B2041CF847E80000BC9C /* sliderThumb_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb_small.png; sourceTree = "<group>"; };
+		D6D6B2051CF847E80000BC9C /* soundSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundSlider.png; sourceTree = "<group>"; };
+		D6D6B2061CF847E80000BC9C /* 情非得已.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "情非得已.jpg"; sourceTree = "<group>"; };
+		D6D6B2081CF847E80000BC9C /* 张玮伽-无心伤害.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张玮伽-无心伤害.mp3"; sourceTree = "<group>"; };
+		D6D6B2091CF847E80000BC9C /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		D6D6B20A1CF847E80000BC9C /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		D6D6B20B1CF847E80000BC9C /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		D6D6B20C1CF847E80000BC9C /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		D6D6B20D1CF847E80000BC9C /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		D6D6B20E1CF847E80000BC9C /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		D6D6B20F1CF847E80000BC9C /* 许嵩-最佳歌手.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "许嵩-最佳歌手.mp3"; sourceTree = "<group>"; };
+		D6D6B2101CF847E80000BC9C /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		D6D6B2111CF847E80000BC9C /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		D6D6B2121CF847E80000BC9C /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		D6D6B2131CF847E80000BC9C /* 英雄2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "英雄2.png"; sourceTree = "<group>"; };
+		D6D6B2141CF847E80000BC9C /* 蔡琴 - 爱断情伤.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "蔡琴 - 爱断情伤.wav"; sourceTree = "<group>"; };
+		D6D6B2151CF847E80000BC9C /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		D6D6B2161CF847E80000BC9C /* 许嵩-最佳歌手.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "许嵩-最佳歌手.jpg"; sourceTree = "<group>"; };
+		D6D6B2171CF847E80000BC9C /* 许嵩-最佳歌手.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "许嵩-最佳歌手.lrc"; sourceTree = "<group>"; };
+		D6D6B2181CF847E80000BC9C /* 张玮伽-无心伤害.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张玮伽-无心伤害.jpg"; sourceTree = "<group>"; };
+		D6D6B2381CF848350000BC9C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6D6B2391CF848350000BC9C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6D6B23A1CF848350000BC9C /* MusicDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDataManager.h; sourceTree = "<group>"; };
+		D6D6B23B1CF848350000BC9C /* MusicDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDataManager.m; sourceTree = "<group>"; };
+		D6D6B23C1CF848350000BC9C /* MusicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableViewController.h; sourceTree = "<group>"; };
+		D6D6B23D1CF848350000BC9C /* MusicListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableViewController.m; sourceTree = "<group>"; };
+		D6D6B23E1CF848350000BC9C /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		D6D6B23F1CF848350000BC9C /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		D6D6B2401CF848350000BC9C /* MusicPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayViewController.h; sourceTree = "<group>"; };
+		D6D6B2411CF848350000BC9C /* MusicPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayViewController.m; sourceTree = "<group>"; };
+		D6D6B2421CF848350000BC9C /* MusicPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62BB9D51CF5346D00A51433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62BB9CF1CF5346D00A51433 = {
+			isa = PBXGroup;
+			children = (
+				D62BB9DA1CF5346D00A51433 /* UISenior16_MusicPlayer */,
+				D62BB9D91CF5346D00A51433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62BB9D91CF5346D00A51433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62BB9D81CF5346D00A51433 /* UISenior16_MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D62BB9DA1CF5346D00A51433 /* UISenior16_MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6B2381CF848350000BC9C /* AppDelegate.h */,
+				D6D6B2391CF848350000BC9C /* AppDelegate.m */,
+				D6D6B23A1CF848350000BC9C /* MusicDataManager.h */,
+				D6D6B23B1CF848350000BC9C /* MusicDataManager.m */,
+				D6D6B23C1CF848350000BC9C /* MusicListTableViewController.h */,
+				D6D6B23D1CF848350000BC9C /* MusicListTableViewController.m */,
+				D6D6B23E1CF848350000BC9C /* MusicModel.h */,
+				D6D6B23F1CF848350000BC9C /* MusicModel.m */,
+				D6D6B2401CF848350000BC9C /* MusicPlayViewController.h */,
+				D6D6B2411CF848350000BC9C /* MusicPlayViewController.m */,
+				D6D6B2421CF848350000BC9C /* MusicPlayViewController.xib */,
+				D6D6B1F71CF847E80000BC9C /* 梁静茹-偶阵雨.jpg */,
+				D6D6B1F81CF847E80000BC9C /* 林俊杰-背对背拥抱.jpg */,
+				D6D6B2161CF847E80000BC9C /* 许嵩-最佳歌手.jpg */,
+				D6D6B2171CF847E80000BC9C /* 许嵩-最佳歌手.lrc */,
+				D6D6B2181CF847E80000BC9C /* 张玮伽-无心伤害.jpg */,
+				D6D6B1F91CF847E80000BC9C /* Resource */,
+				D62BB9E41CF5346D00A51433 /* Main.storyboard */,
+				D62BB9E71CF5346D00A51433 /* Assets.xcassets */,
+				D62BB9E91CF5346D00A51433 /* LaunchScreen.storyboard */,
+				D62BB9EC1CF5346D00A51433 /* Info.plist */,
+				D62BB9DB1CF5346D00A51433 /* Supporting Files */,
+			);
+			path = UISenior16_MusicPlayer;
+			sourceTree = "<group>";
+		};
+		D62BB9DB1CF5346D00A51433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D62BB9DC1CF5346D00A51433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D6B1F91CF847E80000BC9C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6B1FA1CF847E80000BC9C /* image */,
+				D6D6B2071CF847E80000BC9C /* Songs */,
+				D6D6B2101CF847E80000BC9C /* 我的.png */,
+				D6D6B2111CF847E80000BC9C /* 播放.png */,
+				D6D6B2121CF847E80000BC9C /* 暂停.png */,
+				D6D6B2131CF847E80000BC9C /* 英雄2.png */,
+				D6D6B2141CF847E80000BC9C /* 蔡琴 - 爱断情伤.wav */,
+				D6D6B2151CF847E80000BC9C /* 视频.png */,
+			);
+			name = Resource;
+			path = "上课所需素材";
+			sourceTree = "<group>";
+		};
+		D6D6B1FA1CF847E80000BC9C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6B1FB1CF847E80000BC9C /* aboveMusic.png */,
+				D6D6B1FC1CF847E80000BC9C /* circleClose.png */,
+				D6D6B1FD1CF847E80000BC9C /* circleOpen.png */,
+				D6D6B1FE1CF847E80000BC9C /* menu.png */,
+				D6D6B1FF1CF847E80000BC9C /* nextMusic.png */,
+				D6D6B2001CF847E80000BC9C /* pause.png */,
+				D6D6B2011CF847E80000BC9C /* play.png */,
+				D6D6B2021CF847E80000BC9C /* randomClose.png */,
+				D6D6B2031CF847E80000BC9C /* randomOpen.png */,
+				D6D6B2041CF847E80000BC9C /* sliderThumb_small.png */,
+				D6D6B2051CF847E80000BC9C /* soundSlider.png */,
+				D6D6B2061CF847E80000BC9C /* 情非得已.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D6D6B2071CF847E80000BC9C /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6B2081CF847E80000BC9C /* 张玮伽-无心伤害.mp3 */,
+				D6D6B2091CF847E80000BC9C /* 情非得已.lrc */,
+				D6D6B20A1CF847E80000BC9C /* 情非得已.mp3 */,
+				D6D6B20B1CF847E80000BC9C /* 林俊杰-背对背拥抱.lrc */,
+				D6D6B20C1CF847E80000BC9C /* 林俊杰-背对背拥抱.mp3 */,
+				D6D6B20D1CF847E80000BC9C /* 梁静茹-偶阵雨.lrc */,
+				D6D6B20E1CF847E80000BC9C /* 梁静茹-偶阵雨.mp3 */,
+				D6D6B20F1CF847E80000BC9C /* 许嵩-最佳歌手.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62BB9D71CF5346D00A51433 /* UISenior16_MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62BB9EF1CF5346D00A51433 /* Build configuration list for PBXNativeTarget "UISenior16_MusicPlayer" */;
+			buildPhases = (
+				D62BB9D41CF5346D00A51433 /* Sources */,
+				D62BB9D51CF5346D00A51433 /* Frameworks */,
+				D62BB9D61CF5346D00A51433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISenior16_MusicPlayer;
+			productName = UISenior16_MusicPlayer;
+			productReference = D62BB9D81CF5346D00A51433 /* UISenior16_MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62BB9D01CF5346D00A51433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZF;
+				TargetAttributes = {
+					D62BB9D71CF5346D00A51433 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D62BB9D31CF5346D00A51433 /* Build configuration list for PBXProject "UISenior16_MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62BB9CF1CF5346D00A51433;
+			productRefGroup = D62BB9D91CF5346D00A51433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62BB9D71CF5346D00A51433 /* UISenior16_MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62BB9D61CF5346D00A51433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6B21D1CF847E80000BC9C /* circleOpen.png in Resources */,
+				D6D6B22E1CF847E80000BC9C /* 许嵩-最佳歌手.mp3 in Resources */,
+				D6D6B22D1CF847E80000BC9C /* 梁静茹-偶阵雨.mp3 in Resources */,
+				D62BB9EB1CF5346D00A51433 /* LaunchScreen.storyboard in Resources */,
+				D6D6B2201CF847E80000BC9C /* pause.png in Resources */,
+				D6D6B2281CF847E80000BC9C /* 情非得已.lrc in Resources */,
+				D6D6B2261CF847E80000BC9C /* 情非得已.jpg in Resources */,
+				D6D6B22C1CF847E80000BC9C /* 梁静茹-偶阵雨.lrc in Resources */,
+				D6D6B2361CF847E80000BC9C /* 许嵩-最佳歌手.lrc in Resources */,
+				D6D6B2241CF847E80000BC9C /* sliderThumb_small.png in Resources */,
+				D6D6B2271CF847E80000BC9C /* 张玮伽-无心伤害.mp3 in Resources */,
+				D6D6B2351CF847E80000BC9C /* 许嵩-最佳歌手.jpg in Resources */,
+				D6D6B2191CF847E80000BC9C /* 梁静茹-偶阵雨.jpg in Resources */,
+				D6D6B2481CF848350000BC9C /* MusicPlayViewController.xib in Resources */,
+				D6D6B21C1CF847E80000BC9C /* circleClose.png in Resources */,
+				D6D6B21B1CF847E80000BC9C /* aboveMusic.png in Resources */,
+				D6D6B21E1CF847E80000BC9C /* menu.png in Resources */,
+				D6D6B2311CF847E80000BC9C /* 暂停.png in Resources */,
+				D6D6B2341CF847E80000BC9C /* 视频.png in Resources */,
+				D6D6B21A1CF847E80000BC9C /* 林俊杰-背对背拥抱.jpg in Resources */,
+				D6D6B2291CF847E80000BC9C /* 情非得已.mp3 in Resources */,
+				D6D6B2251CF847E80000BC9C /* soundSlider.png in Resources */,
+				D6D6B22A1CF847E80000BC9C /* 林俊杰-背对背拥抱.lrc in Resources */,
+				D6D6B2331CF847E80000BC9C /* 蔡琴 - 爱断情伤.wav in Resources */,
+				D62BB9E81CF5346D00A51433 /* Assets.xcassets in Resources */,
+				D6D6B2321CF847E80000BC9C /* 英雄2.png in Resources */,
+				D62BB9E61CF5346D00A51433 /* Main.storyboard in Resources */,
+				D6D6B22B1CF847E80000BC9C /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				D6D6B2211CF847E80000BC9C /* play.png in Resources */,
+				D6D6B21F1CF847E80000BC9C /* nextMusic.png in Resources */,
+				D6D6B2371CF847E80000BC9C /* 张玮伽-无心伤害.jpg in Resources */,
+				D6D6B2301CF847E80000BC9C /* 播放.png in Resources */,
+				D6D6B2231CF847E80000BC9C /* randomOpen.png in Resources */,
+				D6D6B22F1CF847E80000BC9C /* 我的.png in Resources */,
+				D6D6B2221CF847E80000BC9C /* randomClose.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62BB9D41CF5346D00A51433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6B2471CF848350000BC9C /* MusicPlayViewController.m in Sources */,
+				D6D6B2431CF848350000BC9C /* AppDelegate.m in Sources */,
+				D6D6B2451CF848350000BC9C /* MusicListTableViewController.m in Sources */,
+				D6D6B2461CF848350000BC9C /* MusicModel.m in Sources */,
+				D62BB9DD1CF5346D00A51433 /* main.m in Sources */,
+				D6D6B2441CF848350000BC9C /* MusicDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D62BB9E41CF5346D00A51433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62BB9E51CF5346D00A51433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D62BB9E91CF5346D00A51433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62BB9EA1CF5346D00A51433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D62BB9ED1CF5346D00A51433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62BB9EE1CF5346D00A51433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62BB9F01CF5346D00A51433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UISenior16_MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LO.UISenior16-MusicPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D62BB9F11CF5346D00A51433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UISenior16_MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LO.UISenior16-MusicPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62BB9D31CF5346D00A51433 /* Build configuration list for PBXProject "UISenior16_MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62BB9ED1CF5346D00A51433 /* Debug */,
+				D62BB9EE1CF5346D00A51433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62BB9EF1CF5346D00A51433 /* Build configuration list for PBXNativeTarget "UISenior16_MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62BB9F01CF5346D00A51433 /* Debug */,
+				D62BB9F11CF5346D00A51433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62BB9D01CF5346D00A51433 /* Project object */;
+}
